@@ -1,0 +1,75 @@
+#servicios{
+    background-color: #3E592A; /* Color de fondo crema/beige */
+}
+#nosotros{
+    background-color: #76ac4e;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Texto blanco para los elementos de la barra de navegación */
+}
+.jumbotron {
+    background-color: #FFFFFF; /* Color de fondo blanco para el encabezado */
+}
+.card {
+    background-color: #FFFFFF; /* Color de fondo blanco para las tarjetas */
+}
+
+.bg-verde-claro-text {
+    background-color: #aaffaa; /* Cambia el color a tu preferencia */
+    padding: 20px;
+    border-radius: 10px; /* Añade bordes redondeados para que se vea más estético */
+}
+
+.cuadrado {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    border: 1px solid #ccc; /* Color y grosor del borde */
+    border-radius: 5px; /* Ajusta el radio del borde para hacerlo más cuadrado */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+/*estilos para el carrousel de eventos*/
+.carousel-item img {
+    max-height: 200px; /* Altura máxima inicial de las imágenes */
+  }
+  .carousel-item img.expandido {
+    max-height: none; /* Si está expandido, quita la altura máxima */
+  }
+
+/* Estilo para el icono de WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+  
+.whatsapp-icon a {
+    display: block;
+    background-color: #25d366;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+}
+/*Estilos para el Follow Us*/
+.social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Cambia el color al pasar el ratón por encima */
+  }
+  
+  
